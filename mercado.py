@@ -145,7 +145,7 @@ def fechar_pedido() -> None:
     if len(carrinho) > 0:
         valor_total: float = 0
 
-        print('Produtos do carrinho')
+        print('Produtos do carrinho:')
         for item in carrinho:
             for dados in item.items():
                 print(dados[0])
